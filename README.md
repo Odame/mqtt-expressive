@@ -75,9 +75,9 @@ This quickly becomes ugly and unmaintainable if there are messages from more tha
 
 ## Features
 
-- [x] Supports both typescript and javascript
+- [x] Supports both typescript (with type declarations) and javascript
 - [ ] Topic-based message handlers
-- [ ] Params-based topics, like `express`
+- [ ] Params in topics, like `express`
 - [ ] Supports middlewares, like `express.use`
 - [ ] Supports multi-nested routing, like `express.Router`
 - [ ] Supports [shared subscriptions](https://docs.vernemq.com/configuration/shared_subscriptions)
