@@ -1,0 +1,38 @@
+{
+  "name": "mqtt-expressive",
+  "version": "0.0.1",
+  "description": "A utility library to expressively handle incoming MQTT messages by redirecting to specific callbacks based on topics",
+  "main": "index.js",
+  "repository": "https://github.com/Odame/mqtt-expressive",
+  "author": "Prince Odame <opodame@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "standardx": "^6.0.0"
+  },
+  "dependencies": {
+    "mqtt": "^4.2.4"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "error",
+      "no-useless-constructor": "off",
+      "@typescript-eslint/no-useless-constructor": "error"
+    }
+  },
+  "standardx": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint/eslint-plugin"
+    ],
+    "globals": [],
+    "ignore": [
+      "node_modules/**"
+    ],
+    "envs": [
+      "jest"
+    ]
+  }
+}
