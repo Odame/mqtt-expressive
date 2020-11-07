@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "esnext",
+        "strict": true,
+        "declaration": false,
+        "resolveJsonModule": true,
+        "lib": [
+            "es2018",
+            "es2019",
+            "es2020"
+        ],
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "allowJs": false
+    },
+    "include": [
+        "**/*.ts"
+    ],
+}
