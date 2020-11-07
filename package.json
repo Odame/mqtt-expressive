@@ -7,8 +7,10 @@
   "author": "Prince Odame <opodame@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.15",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
+    "jest": "^26.6.3",
     "standardx": "^6.0.0"
   },
   "dependencies": {
